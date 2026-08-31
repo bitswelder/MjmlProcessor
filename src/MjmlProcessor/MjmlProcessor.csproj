@@ -21,6 +21,8 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/bitswelder/MjmlProcessor</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/bitswelder/MjmlProcessor</PackageProjectUrl>
     <Title>Mjml Processor</Title>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
