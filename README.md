@@ -222,6 +222,16 @@ dotnet test
 dotnet pack src/MjmlProcessor -c Release
 ```
 
+### Package icon
+
+`assets/icon.svg` is the source artwork; `assets/icon.png` is the 128×128 render that ships in the
+package as `PackageIcon`. Regenerate the PNG from the SVG after changing the artwork — any SVG
+rasteriser will do, for example:
+
+```bash
+rsvg-convert -w 128 -h 128 -b white assets/icon.svg -o assets/icon.png
+```
+
 ## License
 
 MIT
