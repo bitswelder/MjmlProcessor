@@ -1,0 +1,16 @@
+[33mcommit 087fd61da4262d01571af3b147bac71270ebb4ac[m[33m ([m[1;33mtag: [m[1;33mv1.0.1[m[33m, [m[1;31morigin/claude/icon-new-feature-ph6dzn[m[33m, [m[1;32mclaude/icon-new-feature-ph6dzn[m[33m)[m
+Author: [1;31mClaude[m <noreply@anthropic.com>
+Date:   Tue Sep 1 11:41:55 2026 +0000
+
+    Add package icon
+    
+    Ship the MjmlProcessor logo as the NuGet package icon.
+    
+    - assets/icon.svg: source artwork, cropped to a square viewBox so any
+      rasteriser reproduces the shipped PNG.
+    - assets/icon.png: 128x128 render, packed at the package root and
+      referenced by PackageIcon.
+    - README: note on regenerating the PNG from the SVG.
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01ErvyewqWbDnACi4BRvkmJm
